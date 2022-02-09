@@ -10,8 +10,8 @@
 
 @-moz-document domain("dash.cloudflare.com") {
     /* Domain Name *//* New Nav */
-    #single-spa-application\:\@cloudflare\/monolith > div > div > aside > div:nth-child(2) > nav > div > header > div > span > button > span > h1 { filter: blur(5px); }
-    #single-spa-application\:\@cloudflare\/monolith > div > div > aside > div:nth-child(2) > nav > div > header > div > div:nth-child(4) > div > ul > li:not(li:nth-last-child(1)) > a { filter: blur(5px); }
+    #single-spa-application\:\@cloudflare\/monolith > div > div > aside > div > nav > div > header > div > span > button > span > h1 { filter: blur(5px); }
+    #single-spa-application\:\@cloudflare\/monolith > div > div > aside > div > nav > div > header > div > div > ul > :not(li:nth-last-child(1)) > a  { filter: blur(5px); }
     /* Zone ID *//* New Nav */
     #single-spa-application\:\@cloudflare\/monolith > div > div > div:nth-child(2) > div > main > div > div:nth-child(2) > div:nth-child(5) > div:nth-child(2) > div > pre { filter: blur(5px); }
     /* Account ID *//* New Nav */
