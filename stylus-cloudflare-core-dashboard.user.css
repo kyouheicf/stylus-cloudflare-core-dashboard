@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Cloudflare Dashboard for DEMO
 @namespace      github.com/kyouheicf/stylus-cloudflare-core-dashboard
-@version        1.0.0
+@version        1.0.2
 @description    Dynamic masking for Cloudflare Dashboard with Stylus
 @author         Kyouhei Hayama
 @homepageURL    https://github.com/kyouheicf/stylus-cloudflare-core-dashboard
@@ -19,7 +19,7 @@
     /* Site Name *//* New Nav */
     #single-spa-application\:\@cloudflare\/monolith > div > div > div:nth-child(2) > main > div > div > div > div > div > div > div[data-testid="zone-cards"] > a > div:nth-child(1) { filter: blur(5px); }
     /* DNS management for Domain Name *//* New Nav */
-    #single-spa-application\:\@cloudflare\/monolith > div > div > div:nth-child(2) > div > div > main > div > div > div:nth-child(3) > div:nth-child(2) > h2 > span:nth-child(2) > span { filter: blur(5px); }
+    #single-spa-application\:\@cloudflare\/monolith > div > div > div:nth-child(2) > div > div > main > div > div > div:nth-child(3) > div:nth-child(2) > h2 > span > span { filter: blur(5px); }
     /* LB, Spectrum hostname *//* New Nav */
     #single-spa-application\:\@cloudflare\/monolith > div > div > div:nth-child(2) > div > div > main > div > div > div:nth-child(3) > div:nth-child(2) > div > div:nth-child(2) > table > tbody > tr > td:nth-child(2) > span { filter: blur(5px); }
     /* DNS hostname *//* New Nav */
